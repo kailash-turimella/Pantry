@@ -1,0 +1,27 @@
+# Secrets — never commit (kept defensively; the app reads its key from the keychain)
+.env
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode project cruft (shared schemes are intentionally tracked)
+Pantry.xcodeproj/project.xcworkspace/xcuserdata/
+Pantry.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+Pantry.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+
+# macOS
+.DS_Store
